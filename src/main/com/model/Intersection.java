@@ -12,7 +12,7 @@ import java.util.Queue;
 public class Intersection {
 
     @NonNull
-    private final List<Queue> lanes;
+    private final List<Queue<Car>> lanes;
 
     @NonNull
     private final List<Double> times;

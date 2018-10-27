@@ -33,7 +33,7 @@ public class CarDataReader {
             fileReader.close();
 
         } catch (IOException e) {
-
+            e.printStackTrace();
         }
     }
 
